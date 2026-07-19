@@ -8,7 +8,7 @@ thumbsContainer.addEventListener('click', function (e) {
 
   if (link) {
     e.preventDefault();
-    largeImg.src = link.getAttribute('href');
-    largeImg.alt = link.getAttribute('title');
+    largeImg.src = link.href;
+    largeImg.alt = link.title;
   }
 });
